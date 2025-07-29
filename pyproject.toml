@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vbiascalculator"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="youremail@example.com" },
+]
+description = "A library to calculate vbias from simulation data using MPI"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "mpi4py",
+    "tqdm",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/vbiascalculator"
+"Bug Tracker" = "https://github.com/yourusername/vbiascalculator/issues"
+
